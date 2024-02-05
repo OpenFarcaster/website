@@ -8,7 +8,7 @@ import { buttonVariants } from "../ui/button";
 
 export const LandingJoinCommunity: React.FC = () => {
   return (
-    <div className="bg-purple-100 w-full">
+    <div className="bg-purple-100 w-full grow">
       <div className="flex flex-col gap-8 text-center max-w-7xl px-4 py-16 w-full mx-auto">
         <h3 className="scroll-m-20 font-mono text-2xl font-extrabold uppercase tracking-widest">
           Join Us

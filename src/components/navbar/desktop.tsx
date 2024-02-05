@@ -4,15 +4,17 @@ import React from "react";
 import { FarcasterIcon } from "../icons/farcaster";
 import { TelegramIcon } from "../icons/telegram";
 import { buttonVariants } from "../ui/button";
+import Logo from "../../../public/logo.svg";
+import Image from "next/image";
 
 export const DesktopNavbar: React.FC = () => {
   return (
     <div className="flex w-full items-center justify-between">
-      <img
-        src="https://avatars.githubusercontent.com/u/141670031?s=200&v=4"
-        alt="Open Farcaster Logo"
-        className="w-8 h-8 rounded-full"
-      />
+      <div className="flex items-center gap-2">
+        <span className="text-xl font-medium text-[#8E5FD5]">
+          open farcaster
+        </span>
+      </div>
 
       {/* <div className="flex items-center gap-12">
         <span className="font-semibold text-sm cursor-pointer hover:text-primary transition-all duration-300">

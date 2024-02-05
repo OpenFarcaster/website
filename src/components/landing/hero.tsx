@@ -27,7 +27,7 @@ export const LandingHero: React.FC = () => {
         </div>
 
         <div className="flex flex-col items-center gap-8">
-          <img src="/hero.svg" alt="People Having Fun" className="w-4/5" />
+          <img src="/logo.svg" alt="People Having Fun" className="w-3/5" />
         </div>
       </div>
     </div>
